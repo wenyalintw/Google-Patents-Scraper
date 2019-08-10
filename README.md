@@ -49,18 +49,18 @@ This application scrape Google Patents by two steps:
 
 ### File Structure of Output Directory
 <pre>
-├── <a href="#">PDFs</a>
+├── PDFs
 │   ├── CN104321947A.pdf
 │   ├── ...
 │   └── readme.txt
-├── <a href="#">Family_PDFs</a>
+├── Family_PDFs
 │   ├── CN104321947A's\ Family
 │   │   ├── EP2850716B1.pdf
 │   │   ├── ...
 │   │   └── readme.txt
 │   ├── ...
 │   └── ...
-└── <a href="#">overview.md</a>
+└── overview.md
 </pre>
 * Output directory of demo located at [Demo_outdir](https://github.com/wenyalintw/Google-Patents-Scraper/tree/master/Demo_outdir)
 * [overview.md](https://github.com/wenyalintw/Google-Patents-Scraper/blob/master/Demo_outdir/overview.md) represents the summary of completed searching
