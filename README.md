@@ -39,7 +39,7 @@ This application scrape Google Patents by two steps:
 
 ### Search & Download Patents
 * Select an output directory to store downloaded/generated files
-* Search whatever you like (search terms' format is the same as Google Patents)
+* Search whatever you like (search terms' format same as Google Patents)
 * Download PDF files of searching results & their patent families
 
 PDF files and auto-generated `overview.md` will then be stored in selected directory
