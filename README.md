@@ -33,19 +33,19 @@ This application scrape Google Patents by two steps:
 * Set proxy to avoid current ip blocked by Google Patents
 
 <p align="center">
-    <img src="resources/set_proxy.png" alt="preprocessing" width="485" height="355">
+    <img src="resources/set_proxy.png" alt="preprocessing" width="600">
 </p>
 
 
 ### Search & Download Patents
 * Select an output directory to store downloaded/generated files
-* Search whatever you like (search terms' format are the same as Google Patents)
+* Search whatever you like (search terms' format is the same as Google Patents)
 * Download PDF files of searching results & their patent families
 
 PDF files and auto-generated `overview.md` will then be stored in selected directory
 
 <p align="center">
-    <img src="resources/search_download.png" alt="preprocessing" width="512" height="374">
+    <img src="resources/search_download.png" alt="preprocessing" width="600">
 </p>
 
 ### File Structure of Output Directory
@@ -92,7 +92,7 @@ git clone https://github.com/wenyalintw/Google-Patents-Scraper.git
 pip install -r /path/to/requirements.txt
 ```
 
-* Ready to go!
+* Ready to go
 
 ```sh
 cd src
