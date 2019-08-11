@@ -44,7 +44,7 @@ class CollectPdf(QObject):
     def start_download(self, links, terms, option):
         self.setup()
         file_overview = open('overview.md', 'w')
-        pre_content = ['---', '---', '#Searching Result Information',
+        pre_content = ['---', '---', '# Searching Result Information',
                        f'* Search Terms: {terms}',
                        f'* Total Patents found: {len(links)}',
                        f'* Due Date: {date.today().strftime("%B %d, %Y")}', '',
@@ -67,7 +67,7 @@ class CollectPdf(QObject):
             abstract = soup.select('head > meta[name=description]')[0]['content'].strip()
             file_overview.write(
                 f'<br><div align="center" style="font-size:28px">({index}) <a href="{link}">{number}</a></div>\n'
-                f'##Title\n{title}\n##Abstract\n{abstract}\n##Family\n')
+                f'## Title\n{title}\n## Abstract\n{abstract}\n## Family\n')
             try:
                 # some old patent doesn't have pdf link
                 pdf_link = soup.select('head > meta[name=citation_pdf_url]')[0]['content']

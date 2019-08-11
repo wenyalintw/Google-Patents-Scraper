@@ -21,7 +21,7 @@
 
 
 ## Application Demo
-### [Google Patents Scraper – Demo (YouTube)](#)
+### [Google Patents Scraper – Demo (YouTube)](https://youtu.be/HRl3ChPxbIo)
 
 ## Introduction
 This application scrape Google Patents by two steps:
@@ -33,18 +33,19 @@ This application scrape Google Patents by two steps:
 * Set proxy to avoid current ip blocked by Google Patents
 
 <p align="center">
-    <img src="resources/set_proxy.png" alt="preprocessing" width="404" height="296">
+    <img src="resources/set_proxy.png" alt="preprocessing" width="485" height="355">
 </p>
 
 
 ### Search & Download Patents
 * Select an output directory to store downloaded/generated files
-* Key in search terms and search (search terms are the same as Google Patents)
-* Download PDF files of searching results and their patent families (optional)
-* PDF files and auto-generated report will be stored in selected directory
+* Search whatever you like (search terms' format are the same as Google Patents)
+* Download PDF files of searching results & their patent families
+
+PDF files and auto-generated `overview.md` will then be stored in selected directory
 
 <p align="center">
-    <img src="resources/search_download.png" alt="preprocessing" width="426" height="311">
+    <img src="resources/search_download.png" alt="preprocessing" width="512" height="374">
 </p>
 
 ### File Structure of Output Directory
@@ -73,8 +74,8 @@ Modules besides python built-ins
  * Others - [fake-useragent](https://github.com/hellysmile/fake-useragent) / [tqdm](https://pypi.org/project/tqdm/)
 
 ## Getting Started
-### Prerequisite
-* Download [ChromeDriver](https://chromedriver.chromium.org/) corresponding with your Chrome version
+### Prerequisites
+* Download a [ChromeDriver](https://chromedriver.chromium.org/) which correspond with your Chrome version
 * Replace the one in [src/resources](https://github.com/wenyalintw/Google-Patents-Scraper/tree/master/src/resources)
 
 ### Installation
@@ -100,6 +101,6 @@ python main.py
 
 
 ## Acknowledgments
-- Checking process of proxies modified from [ApsOps's repo](https://github.com/ApsOps/proxy-checker/blob/master/proxy_check.py).
-- [search.png](https://github.com/wenyalintw/Google-Patents-Scraper/blob/master/src/resources/iconfinder_search_461380.png) licensed under "CC BY 3.0" downloaded from [ICONFINDER](https://www.iconfinder.com/icons/1609653/brain_organs_icon).
+- Checking process of proxies modified from [ApsOps's repo](https://github.com/ApsOps/proxy-checker)
+- [search.png](https://github.com/wenyalintw/Google-Patents-Scraper/blob/master/src/resources/iconfinder_search_461380.png) licensed under "CC BY 3.0" downloaded from [ICONFINDER](https://www.iconfinder.com/icons/1609653/brain_organs_icon)
 

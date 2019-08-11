@@ -3,7 +3,7 @@
 # Searching Result Information
 * Search Terms: ((machine learning) OR (artificial intelligence)) (detect) assignee:tesla after:priority:20050101
 * Total Patents found: 21
-* Due Date: August 10, 2019
+* Due Date: 8月 11, 2019
 
 ---
 ---
