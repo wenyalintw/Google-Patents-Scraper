@@ -24,6 +24,7 @@ class GooglePatentsScraper(QDialog):
         self.numbers = None
         self.titles = None
         self.links = None
+        self.proxy = None
 
     def set_proxy(self, ip):
         self.proxy = ip

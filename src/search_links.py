@@ -12,7 +12,7 @@ import re
 
 class SearchLinks:
 
-    def __init__(self, ip):
+    def __init__(self, ip = None):
         socket.setdefaulttimeout(30)
         self.ua_generator = UserAgent()
         self.options = Options()
@@ -20,7 +20,8 @@ class SearchLinks:
         self.options.add_argument("--incognito")
         # UserAgent.chrome will generate random Chrome user-agent
         self.options.add_argument(f'user-agent={self.ua_generator.chrome}')
-        self.options.add_argument('--proxy-server=http://' + ip)
+        if ip:
+            self.options.add_argument('--proxy-server=http://' + ip)
         self.driver = webdriver.Chrome('resources/chromedriver', options=self.options)
         self.driver.get('http://patents.google.com/advanced')
         self.prefix = 'https://patents.google.com/patent/'
