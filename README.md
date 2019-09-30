@@ -19,7 +19,6 @@
 * [Getting Started](#getting-started)
 * [Acknowledgments](#acknowledgments)
 
-
 ## Application Demo
 ### [Google Patents Scraper – Demo (YouTube)](https://youtu.be/HRl3ChPxbIo)
 
@@ -104,3 +103,4 @@ python main.py
 - Checking process of proxies modified from [ApsOps's repo](https://github.com/ApsOps/proxy-checker)
 - [search.png](https://github.com/wenyalintw/Google-Patents-Scraper/blob/master/src/resources/iconfinder_search_461380.png) licensed under "CC BY 3.0" downloaded from [ICONFINDER](https://www.iconfinder.com/icons/1609653/brain_organs_icon)
 
+###### MIT License (2019), Wen-Ya Lin
